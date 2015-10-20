@@ -113,7 +113,7 @@ function activate($uri) {
     <li> <i class="fa fa-linkedin-square fa-2x"></i></li>
 
     <li><span><i class="fa fa-github-alt fa-2x" ></i></span><a href={{ url('https://github.com/joyabia/') }}>.</a></li>
-	 <li><i class="fa fa-trash-o fa-fw"></i> Delete</li>
+	
 
 
 
