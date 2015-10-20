@@ -120,7 +120,7 @@ function activate($uri) {
     
     </ul>
 
-<a href="{{ url('/') }}"><span><i class="fa fa-trash-o fa-fw"></i></span> Home</a>
+
   </div>
 </nav>
 
