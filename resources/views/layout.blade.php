@@ -65,6 +65,11 @@
 
 .footer{
 	background-color: #18bc9c;
+	position: absolute;
+	bottom: 0;
+	height: 60px;
+	width:100%;
+
 }
 .err_message{
 	color:red;
