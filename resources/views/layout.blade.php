@@ -3,23 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title>P3-Form</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-			<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="\css\bootstrap.min.css">
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<style>
 	#intro_row{
 		background-image: url("abstract_circles_background_1.jpg");
 		height: 150px;
 		color: white;
 		padding:0 50px 0 50px;
-		margin-bottom: 50px;
+		margin-bottom: 20px;
 		margin-top: 100px;
 
+	}
+	.fa{
+		color: #1a242f;
 	}
 	#intro_row > p{
 
@@ -56,8 +52,33 @@
 	margin-right: 10px;
 }
 
-	</style>
+.footer{
+	background-color: #18bc9c;
+}
+.err_message{
+	color:red;
+	font-weight: small;
+}
 
+.panel{
+	padding: 0 50px 0 50px;
+}
+
+	</style>
+<!-- Latest compiled and minified CSS -->
+
+
+
+
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="\css\bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -95,7 +116,7 @@ function activate($uri) {
 
 <div class="row" id="intro_row">
 <h1> The Developer's Best Friend</h1>
-<p >Are you building and application and need seed data for user accounts and paragraphs?  Your best friend is here to hold your hand. Enter the number of paragraphs or users you want to create, select extra features and submit. Va! Va! Voom! the data you need right here on your screen.</p>
+<p >Are you building an application and need seed data for user accounts and text?  Your best friend is here to hold your hand. Enter the number of paragraphs or users you want to create, select extra features and submit. Va! Va! Voom! the data you need right here on your screen.</p>
 </div>
 
 
@@ -105,22 +126,19 @@ function activate($uri) {
 
 
 
-<nav class="navbar navbar-inverse navbar-fixed-bottom">
+<div class="footer">
   <div class="container">
     <ul class="footer-list">
-    <li>
-    Webdesign - by Joy Abia</li>
-    <li> <i class="fa fa-linkedin-square fa-2x"></i></li>
+    
+    Webdesign - by Joy Abia <a href="#">
+    <li><a href="{{ url('http://linkedin.com/in/joyabia') }}"> <i class="fa fa-linkedin-square fa-2x"></i></a></li>
 
-    <li><span><i class="fa fa-github-alt fa-2x" ></i></span><a href={{ url('https://github.com/joyabia/') }}>.</a></li>
+    <li><a href="{{ url('https://github.com/joyabia/') }}"><i class="fa fa-github-alt fa-2x" ></i></a></li>
+ 
 	
-
-
-
     
     </ul>
-
-
+    
   </div>
 </nav>
 

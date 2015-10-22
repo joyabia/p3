@@ -24,7 +24,7 @@ class UserFormRequest extends Request
     public function rules()
     {
         return [
-           'users'=>'required|integer',
+           'users'=>'required|integer|between:1,10',
            
         ];
     }

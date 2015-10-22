@@ -16,10 +16,15 @@
  array('required',
  'class'=>'form-control',
  'placeholder'=>'')) !!}
-
+ <!--Display error is user enters more than 10)-->
+ @foreach($errors->all() as $error)
+ @if(strpos($error, 'user'))
+ <li class="err_message">{{ $error }}</li>
+ @endif
+ @endforeach
 
 <!--the extra features check buttons-->
-
+<br/>
 <p> Add Extra Features</p>
   
  
@@ -32,8 +37,11 @@
 {!!  Form::checkbox('password', 'value') !!}
  {!! Form::label('password', 'Generate Password') !!}
 
-<br/>
-<br/>
+
+
+<ul>
+
+ </ul>
 {!! Form::submit('Submit',
  array('class'=>'btn btn-primary')) !!}
 <br/>
@@ -55,6 +63,14 @@
  'placeholder'=>'',
  'size'=> 5)) !!}
 <br/>
+
+
+@foreach($errors->all() as $error)
+@if(strpos($error, 'paragraph'))
+ <li class="err_message">{{ $error }}</li>
+ @endif
+ @endforeach
+
 <br/>
   <br/>
  <br/>

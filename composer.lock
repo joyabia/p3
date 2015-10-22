@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c63afae869e7d0e6aeca8f3d1dbd8617",
-    "content-hash": "b560c9e9903417f3443634b5a0603100",
+    "hash": "4c4ebef23ad456987f4f058182334479",
+    "content-hash": "3e6c5b878cf7bb008f71cbc9145e5546",
     "packages": [
         {
             "name": "badcow/lorem-ipsum",
@@ -1987,6 +1987,37 @@
             "time": "2015-05-11 14:41:42"
         },
         {
+            "name": "joyabia/jpasswdgen",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joyabia/jpasswdgen.git",
+                "reference": "b0725f9f847941e4ff322ebfe02e0758e18bc824"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joyabia/jpasswdgen/zipball/b0725f9f847941e4ff322ebfe02e0758e18bc824",
+                "reference": "b0725f9f847941e4ff322ebfe02e0758e18bc824",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "yangqi/htmldom": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Joyabia\\Jpasswdgen\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Generates a two word password in the spirit of xkcd",
+            "time": "2015-10-21 12:02:49"
+        },
+        {
             "name": "mockery/mockery",
             "version": "0.9.4",
             "source": {
@@ -3058,11 +3089,54 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2015-09-14 14:14:09"
+        },
+        {
+            "name": "yangqi/htmldom",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yangqi/Htmldom.git",
+                "reference": "eee67c01f0a82c6c5e6252880d382e586e331da7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yangqi/Htmldom/zipball/eee67c01f0a82c6c5e6252880d382e586e331da7",
+                "reference": "eee67c01f0a82c6c5e6252880d382e586e331da7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Yangqi\\Htmldom": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "yangqi",
+                    "email": "i@yangqi.me"
+                }
+            ],
+            "description": "Simple Html Dom Parser for Laravel 4",
+            "keywords": [
+                "HTML Parser",
+                "laravel"
+            ],
+            "time": "2015-09-10 13:45:37"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "yangqi/htmldom": 20,
+        "joyabia/jpasswdgen": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

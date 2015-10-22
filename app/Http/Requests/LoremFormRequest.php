@@ -24,7 +24,7 @@ class LoremFormRequest extends Request
     public function rules()
     {
                return [
-            'paragraph' => 'required|integer'
+            'paragraph' => 'required|integer|between:1,10'
         ];
     }
 }
