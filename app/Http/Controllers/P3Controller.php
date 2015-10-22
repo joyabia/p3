@@ -19,7 +19,7 @@ public function index()
 }
 
  public function userstore(UserFormRequest $request)
-{
+
 
 { 
 
@@ -71,7 +71,7 @@ public function index()
 
     return view('store.userstore', ['username' => $username, 'usercred'=>$usercred] );
  
- }
+
  
  
  }
