@@ -128,7 +128,7 @@ function activate($uri) {
 
 
 
-<div class="footer">
+<footer class="footer">
   <div class="container">
     <ul class="footer-list">
     
@@ -142,7 +142,7 @@ function activate($uri) {
     </ul>
     
   </div>
-</nav>
+</footer>
 
 	
 </body>
