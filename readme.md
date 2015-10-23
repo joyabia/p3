@@ -17,7 +17,8 @@ Faker - From packagist. Generates dummy user names, profiles and addresses
 LaravelCollective classes - from packagist. html and form classes used in laravel
 badcow/ipsum - From packagist. Generates Lorem Ipsum text
 
-### Extras 
+### Extras - FYI for Instructors
 I implemented my password generator from P2 by creating my own package on Packagist - https://packagist.org/packages/joyabia/jpasswdgen. The implementation is scaled down.. to always provide a password consisting of two words and a special character.
 
 ### Demo Video
+http://screencast.com/t/qDbw9aheeQ3
