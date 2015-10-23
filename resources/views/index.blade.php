@@ -29,7 +29,7 @@
   
  
 {!!  Form::checkbox('address', 'value') !!}
- {!! Form::label('address', 'Address') !!}
+{!! Form::label('address', 'Address') !!} 
 
      {!!  Form::checkbox('profile', 'value') !!}
      {!! Form::label('profile', 'Profile') !!}

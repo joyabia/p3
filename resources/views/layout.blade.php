@@ -7,7 +7,7 @@
 
 
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="\css\bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -16,6 +16,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	<style>
+	#foot_nav{
+		height:20px;
+	}
 	#intro_row{
 		background-image: url("abstract_circles_background_1.jpg");
 		height: 150px;
@@ -81,7 +84,7 @@
 }
 
 	</style>
-<!-- Latest compiled and minified CSS -->
+
 
 
 
@@ -116,8 +119,6 @@ function activate($uri) {
   <li <?php activate("#")?>><a href="#">P4 - Seed Management System</a></li>
 </ul>
 </div>
-</div>
-
 </nav>
 
 
@@ -133,11 +134,11 @@ function activate($uri) {
 
 
 
-<footer class="footer">
+<nav class="navbar navbar-inverse navbar-fixed-bottom" id="foot_nav">
   <div class="container">
     <ul class="footer-list">
     
-    Webdesign - by Joy Abia <a href="#">
+   <li> Webdesign - by Joy Abia </li>
     <li><a href="{{ url('http://linkedin.com/in/joyabia') }}"> <i class="fa fa-linkedin-square fa-2x"></i></a></li>
 
     <li><a href="{{ url('https://github.com/joyabia/') }}"><i class="fa fa-github-alt fa-2x" ></i></a></li>
@@ -147,7 +148,9 @@ function activate($uri) {
     </ul>
     
   </div>
-</footer>
+</nav>
+
+</div>
 
 	
 </body>

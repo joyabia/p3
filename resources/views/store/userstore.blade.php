@@ -1,8 +1,11 @@
+
+	
+
 @extends('layout')
 
-<div  class="container">
- @section('content')
 
+ @section('content')
+<div  class="container">
  <div class='row'>
 
   
@@ -11,10 +14,9 @@
  <!--output the username choices-->
 @foreach($username as $usr)
 
-<!--<p> {{{$usr}}}</p>-->
 
-<p>
 <div class="alert alert-success">
+<p>
 @foreach(explode("%", $usr) as $usr1)
 {{$usr1}}<br/>
 @endforeach
@@ -23,8 +25,8 @@
 @endforeach
 
 </div>
-
-
-
 </div>
+
+
+
  @endsection
